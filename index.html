@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Inicio</title>
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+        <!-- Logo -->
+        <a class="navbar-brand" href="index.html">
+            <img src="imagenes/negro-Photoroom (1).jpg" alt="Logo" style="width: 80px; height: 80px; margin-left: 100px;">
+        </a>
+
+        <!-- Navbar toggle for mobile view -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar  -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+                
+                <li class="nav-item">
+                    <a class="nav-link " href="#" role="button" >
+                        Contacto
+                      </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#" role="button" >
+                        Contacto
+                      </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                      Menú
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Sobre nuestra ONG</a></li>
+                      <li><a class="dropdown-item" href="#">Unete a nuestro equipo</a></li>
+                      <li><a class="dropdown-item" href="#">Panel de administracion</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <!-- Login and Register buttons aligned to the right -->
+            <div class="d-flex ms-auto">
+                <a class="btn btn-info me-3" href="#">Iniciar sesión</a>
+                <a class="btn btn-info me-5" href="#">Registrarse</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+
+    <!-- Contenido Principal -->
+   
+        <!-- Hero Section -->
+        <div class="hero">
+            <div class="hero-content">
+                <h1>ONG LECTORES SOLIDARIOS</h1>
+                <a href="donarlibro.html" class="button">Donar un libro</a>
+                <a href="buscarlibro.html" class="button">Buscar libros</a>
+            </div>
+        </div>
+        <div id="cuerpo">
+            <!-- Contenedor principal para ambas secciones -->
+            <div id="secciones" class="container my-5">
+                <!-- Sección de Donar -->
+                <div id="donar-section">
+                    <h1 class="text-center">DONDE DONAR</h1>
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <iframe src="https://www.google.com/maps/embed?..." width="100%" height="100%" style="border:0; border-radius: .25rem;" allowfullscreen loading="lazy"></iframe>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">DUOC Valparaíso</h5>
+                                    <p class="card-text">Texto descriptivo.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <iframe src="https://www.google.com/maps/embed?..." width="100%" height="100%" style="border:0; border-radius: .25rem;" allowfullscreen loading="lazy"></iframe>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">DUOC Viña del Mar</h5>
+                                    <p class="card-text">Texto descriptivo.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Estado de los Libros -->
+                <div id="Estadolibro">
+                    <h1 class="text-center">ESTADO DE LOS LIBROS</h1 >
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="imagenes/librorayado.jpg" width="100%" height="100%" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">LIBROS RAYADOS</h5>
+                                    <p class="card-text">Texto descriptivo.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="imagenes/libroroto.jpg" width="100%" height="100%" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">LIBROS ROTOS</h5>
+                                    <p class="card-text">Texto descriptivo.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Section for institutions receiving donations -->
+<div class="container my-5">
+    <h2 class="text-center">Instituciones beneficiadas</h2>
+    <p class="text-center">Estas son algunas de las instituciones que han recibido donaciones de libros gracias a tu apoyo.</p>
+
+    <!-- Imagen debajo del título -->
+    <div class="text-center mb-4">
+        <img src="imagenes/beneficiarios.jpg" class="img-fluid" alt="Beneficiarios">
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Fundación Esperanza</h5>
+                    <p class="card-text">Fundación dedicada a mejorar la calidad de vida de niños y jóvenes en situación de vulnerabilidad mediante el acceso a la educación y la cultura.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Escuela San Juan Bosco</h5>
+                    <p class="card-text">Una escuela que ofrece educación gratuita a niños de bajos recursos, enfocándose en su desarrollo integral y su inclusión en la sociedad.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Biblioteca Comunitaria La Paz</h5>
+                    <p class="card-text">Espacio cultural que promueve la lectura y la participación comunitaria, ofreciendo libros y actividades educativas para todas las edades.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Centro Infantil Alegría</h5>
+                    <p class="card-text">Centro dedicado al cuidado y educación de niños en situación de riesgo, promoviendo su desarrollo físico, emocional y educativo.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Hogar de Ancianos Los Abuelos</h5>
+                    <p class="card-text">Institución que brinda cuidado y compañía a personas mayores, ofreciendo un entorno seguro y lleno de amor para su bienestar.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Red de Bibliotecas Móviles</h5>
+                    <p class="card-text">Proyecto que lleva libros y recursos educativos a comunidades rurales y alejadas, acercando la cultura a los más necesitados.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        
+
+        
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>ONG Libros Solidarios</h5>
+                    <p>Libros Solidarios es una organización sin fines de lucro.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Redes Sociales</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Facebook</a></li>
+                        <li><a href="#" class="text-white">Twitter</a></li>
+                        <li><a href="#" class="text-white">Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contacto</h5>
+                    <p>Correo: contacto@ejemplo.com</p>
+                    <p>Teléfono: +123 456 7890</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>

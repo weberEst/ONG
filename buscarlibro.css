@@ -1,0 +1,13 @@
+.hero {
+  background-image: url('imagenes/buscarlibros.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+

@@ -1,0 +1,72 @@
+/* Estilo general para botones */
+.button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('imagenes/buscarlibros.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+#secciones {
+  display: flex;
+  flex-direction: column;
+  gap: 40px; /* Controla el espacio entre las secciones */
+}
+
+#donar-section, #Estadolibro {
+  background-color: #EFF0EA;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.card {
+  max-width: 600px;
+  margin: 0 auto 20px; /* Espacio entre cada tarjeta */
+  border-radius: 10px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+#cuerpo h1{
+  margin: 5%;
+
+}
